@@ -1,0 +1,48 @@
+a{
+	text-decoration: none !important;
+}
+a:hover{
+	color:#4a4641 !important;
+}
+
+#header{
+	height: 140px;
+	position: relative;
+}
+
+#header a.langType{
+	position: absolute;
+	top:50px;
+	right: 40px;
+}
+#header a.tbtn{
+	position: absolute;
+	background-image: url(../img/header/btn.png);
+	background-size: cover;
+	width:150px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 14px;
+	color: #000;
+	text-align: center;
+	top:80px;
+	display: block;
+}
+
+#header a.logo{
+	width:435px;
+	height: 120px;
+	background-image: url(../img/header/logo.png);
+	background-size: cover;
+	display: block;
+	margin: 0 auto;
+}
+
+#main{
+	padding: 0;
+}
+
+#footer{
+	height: 180px;
+	background-color: blue;
+}

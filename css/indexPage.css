@@ -1,0 +1,127 @@
+#main div.mid{
+	height: auto;
+	display: block;
+	position: relative;
+}
+
+.font-14{
+	font-size: 2em;
+	line-height: 1em;
+	font-style: italic;
+}
+
+.font-12{
+	font-size: 1.6em;
+	line-height: 1em;
+}
+
+.font-18{
+	font-size: 2.4em;
+	line-height: 2.4em;
+}
+
+#main div.mid .container-fluid{
+	width: 100%;
+	position: absolute;
+	top:0;
+	left: 0;
+	color: #fff;
+	font-size: 0.8em;
+	padding-top: 15px;
+}
+
+#main div.mid img{
+	width: 100%;
+}
+
+#main div.mid p{
+	line-height: 1.5em;
+	margin: 0;
+	padding: 0;
+}
+
+#main div.bottom{
+	height: auto;
+	display: block;
+	position: relative;
+	color: #000;
+}
+
+#main div.bottom img{
+	width: 100%;
+}
+
+#main div.bottom .container-fluid{
+	width: 100%;
+	position: absolute;
+	top:0;
+	left: 0;
+	color: #fff;
+	font-size: 0.8em;
+	padding-top: 15px;
+}
+
+#main div.bottom p{
+	line-height: 1.5em;
+	margin: 0;
+	padding: 0;
+	color:#000;
+}
+
+#main div.bottom div.spliter{
+	border-bottom: 2px #000 solid;
+	
+	margin: 15px 0;
+}
+
+#main div.bottom div.bottom-right{
+	
+}
+
+#main div.bottom div.bottom-right .input-title{
+	height: 30px;
+	line-height: 30px;
+	border-radius: 3px;
+	padding-left: 10px;
+	color:#fff;
+	font-weight: bold;
+	background:#c1a77c;
+	background: -webkit-linear-gradient(left, #c1a77c , #feeec7); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right, #c1a77c, #feeec7); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right, #c1a77c, #feeec7); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right, #c1a77c , #feeec7); /* 标准的语法（必须放在最后） */
+}
+
+#main div.bottom div.bottom-right .submitBtn{
+	height: 30px;
+	line-height: 30px;
+	border-radius: 3px;
+	padding-left: 10px;
+	background:#c1a77c;
+	background: -webkit-linear-gradient(left, #c1a77c , #feeec7); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right, #c1a77c, #feeec7); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right, #c1a77c, #feeec7); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right, #c1a77c , #feeec7); /* 标准的语法（必须放在最后） */
+    padding: 0;
+    text-align: center;
+    border: none;
+    width: 150px;
+    color: #fff;
+    float: right;
+}
+
+#main div.bottom div.bottom-right .submitBtn:hover{
+	color:#4a4641;
+}
+
+#main div.bottom div.bottom-right textarea{
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border: none;
+	background-color: #fcfcf9;
+}
+
+#main div.bottom div.bottom-right input{
+	border: none;
+	background-color: #fcfcf9;
+}
