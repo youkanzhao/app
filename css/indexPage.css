@@ -1,7 +1,9 @@
 #main div.mid{
-	height: auto;
 	display: block;
 	position: relative;
+	height:120px;
+	min-height:120px;
+	background-color:#46403c;
 }
 
 .font-14{
@@ -41,10 +43,11 @@
 }
 
 #main div.bottom{
-	height: auto;
+	height: 371px;
 	display: block;
 	position: relative;
 	color: #000;
+	background-color:#f5f4ea;
 }
 
 #main div.bottom img{

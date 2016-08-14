@@ -1,3 +1,6 @@
+body{
+	min-width:480px;
+}
 a{
 	text-decoration: none !important;
 }
@@ -29,6 +32,8 @@ a:hover{
 	display: block;
 }
 
+
+
 #header a.logo{
 	width:435px;
 	height: 120px;
@@ -36,6 +41,24 @@ a:hover{
 	background-size: cover;
 	display: block;
 	margin: 0 auto;
+}
+
+@media (max-device-width: 480px){
+	#header{
+		height:120px;
+	}
+	
+	#header a.tbtn{
+		width:100px;
+		height: 25px;
+		line-height: 25px;
+		font-size: 12px;
+	}
+	
+	#header a.logo{
+		width:261px;
+		height: 72px;
+	}
 }
 
 #main{
